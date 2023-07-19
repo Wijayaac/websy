@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.media {
+	@apply relative w-full;
+}
+
+.media img {
+	@apply absolute inset-0 w-full h-full object-cover object-center;
+}
