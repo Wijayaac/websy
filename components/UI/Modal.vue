@@ -47,7 +47,6 @@
 defineProps({
   showModal: Boolean,
   title: String,
-  content: String,
 });
 
 const emit = defineEmits();

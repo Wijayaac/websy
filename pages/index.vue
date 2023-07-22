@@ -10,7 +10,7 @@
         </div>
       </div>
     </header>
-    <UIModal v-if="showModal" :showModal="showModal" title="Share this Profile" content="This is the content of my modal." @close="showModal = false" />
+    <UIModal v-if="showModal" :showModal="showModal" title="Share this Profile" @close="showModal = false" />
     <div class="container w-full max-w-[720px] mx-auto px-5 py-[65px]">
       <!-- profile -->
       <div class="profile text-center mb-5">
@@ -88,6 +88,23 @@
             </div>
           </div>
         </a>
+        <div class="profile-icons flex justify-center gap-2">
+          <a href="#">
+            <IconsTiktok class="text-green-500 w-10 h-10" />
+          </a>
+          <a href="#">
+            <IconsTelegram class="text-green-500 w-10 h-10" />
+          </a>
+          <a href="#">
+            <IconsMail class="text-green-500 w-10 h-10" />
+          </a>
+          <a href="#">
+            <IconsWhatsapp class="text-green-500 w-10 h-10" />
+          </a>
+          <a href="#">
+            <IconsMail class="text-green-500 w-10 h-10" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
